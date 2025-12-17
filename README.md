@@ -57,7 +57,7 @@
 
 |Start Screen |Admin UI|Quiz section |Share Quiz Code |Player UI |Answer Quiz|Score| Show Score|
 | :---:| :---: | :---: | :---: | :---: |   :---: |   :---: | :---: |  
-|![Start](Screenshots/start.png) | ![Admin](Screenshots/adminlogin.png)| ![Quiz](Screenshots/quizsection.png)| ![Share](Screenshots/share_quiz.png) | ![Player](Screenshots/playerlogin.png) |![Answer](Screenshots/answer.png)|![Score](Screenshots/score.png)| ![Score](Screenshots/leaderboard.png)|
+|![Start](app/Screenshots/start.png) | ![Admin](app/Screenshots/adminlogin.png)| ![Quiz](app/Screenshots/quizsection.png)| ![Share](app/Screenshots/share_quiz.png) | ![Player](app/Screenshots/playerlogin.png) |![Answer](app/Screenshots/answer.png)|![Score](app/Screenshots/score.png)| ![Score](app/Screenshots/leaderboard.png)|
 
 
 ## Installation
