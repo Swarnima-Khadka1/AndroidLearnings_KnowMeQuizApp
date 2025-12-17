@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666285331720",
+    "project_id": "quizify-me-ok",
+    "storage_bucket": "quizify-me-ok.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666285331720:android:1a81015b2521e7536588bd",
+        "android_client_info": {
+          "package_name": "com.example.knowmequiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpakcrelBSjxRiRN_nsdN-rHBYmyE6I6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

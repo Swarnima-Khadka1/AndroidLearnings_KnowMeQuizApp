@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startbg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:text="Create My Quiz"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:backgroundTint="@color/magenta"
+        />
+
+    <Button
+        android:id="@+id/player"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif-condensed"
+        android:backgroundTint="@color/magenta"
+        android:text="Play A Quiz" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/lavender"
+        >
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Welcome to KnowMe!\nIf you want to create your own quiz, choose Create My Quiz and answer the questions honestly.\nIf you want to play, choose Play a Quiz, enter the quiz code shared by your friend, and see how well you know them!"
+        android:textColor="@color/darkPurple"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adminbg"
+    android:orientation="vertical"
+    tools:context=".ViewScoresActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Scores"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/darkPurple"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+       android:backgroundTint="@color/lavender"
+        android:layout_margin="20dp"
+        android:background="#80FFFFFF">
+
+        <TextView
+            android:id="@+id/tvScores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin= "10dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:text="Quiz ID: -Nq... \n - Oggy: 8
+
+" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCreateQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:backgroundTint="@color/magenta"
+        android:layout_marginLeft="140dp"
+        android:text="Create New Quiz" />
+
+</LinearLayout>

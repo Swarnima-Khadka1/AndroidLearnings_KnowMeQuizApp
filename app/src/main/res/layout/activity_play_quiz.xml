@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/playerbg"
+    tools:context=".PlayQuiz">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/lavender">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is my favorite color?"
+                android:textSize="25dp"
+                android:textColor="@color/darkPurple"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <Button
+                android:id="@+id/btnAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Answer"
+                android:layout_below="@id/tvQuestion"
+                android:layout_marginTop="16dp"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/tvAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selected Answer"
+                android:textSize="20dp"
+                android:textColor="@color/darkPurple"
+                android:layout_below="@id/btnAnswer"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next question"
+                android:layout_below="@id/tvAnswer"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:textSize="17dp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
