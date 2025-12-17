@@ -64,7 +64,9 @@
 1. Clone the repository:
 ```bash
 git clone https://github.com/Swarnima-Khadka1/AndroidLearnings_KnowMeQuizApp.git
-
+```
 ## Download APK
 Download from the Releases section:
+```bash
 https://github.com/Swarnima-Khadka1/AndroidLearnings_KnowMeQuizApp/releases
+```
